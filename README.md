@@ -1,2 +1,62 @@
-# OneToolkit
-A tool code repository, various practical automation scripts and tools
+# 🛠️ OneToolkit
+
+一个工具代码库，各种实用的自动化脚本和工具。
+
+---
+
+## 📚 项目简介
+
+这个代码库用于存放各种实用工具脚本，涵盖网络请求、文件处理、数据解析等场景。每个工具都是独立的，可以单独使用，也可以作为模块被其他项目调用。
+
+---
+
+## 🗂️ 目录结构
+
+```
+toolkit/
+├── README.md                    # 主说明文档
+├── tools/                      # 工具目录
+    ├── claude/                 # Claude工具
+    └── flbook/                 # flbook工具
+└── docs/                       # 文档目录
+    ├── guides/                 # 使用指南
+    └── examples/               # 使用示例
+```
+
+---
+
+## 🧰 工具清单
+
+| 工具名称                 | 功能描述                                | 状态   |
+| ------------------------ | --------------------------------------- | ------ |
+| **flbook_downloader.py** | flbook.com.cn PDF下载器，自动解析和解密 | ✅ 完成 |
+| update-cc.ps1            | ClaudeCode指定路径本地按照升级          | ✅ 完成 |
+
+---
+
+## 🤝 贡献指南
+
+欢迎提交工具和改进建议！
+
+1. Fork 项目
+2. 创建功能分支
+3. 提交更改
+4. 创建 Pull Request
+
+---
+
+## 📄 许可证
+
+本项目采用 **MIT 许可证** - 详见 [LICENSE](.\LICENSE) 文件
+
+**注意**: 请确保在使用这些工具时遵守相关网站的使用条款和法律法规。
+
+---
+
+## 🙏 致谢
+
+感谢所有开源项目和社区贡献者。
+
+---
+
+**Happy Coding! 🚀**
