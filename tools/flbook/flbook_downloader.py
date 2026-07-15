@@ -69,7 +69,7 @@ class FlbookDownloader:
         if filename:
             filename = unquote(filename)
             filename = re.sub(r'[\\/*?:"<>|]', '', filename)
-            return filename
+            return filename[:128]
 
         return "unknown"
 
